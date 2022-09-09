@@ -1,4 +1,5 @@
 .header {
+  padding: 22px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,4 +20,34 @@
   font-size: 15px;
   line-height: 25px;
   color: #939CAA;
+
+  &:hover {
+    color: #FCB72B;
+  }
+}
+
+.header__item:first-child {
+  padding-right: 58px;
+}
+
+.header__item+.header__item {
+  padding-right: 32px;
+}
+
+.btn{
+  padding: 14px 39px;
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid transparent;
+}
+
+.header__btn {
+  background-color: #FCB72B;
+  color: #fff;
+}
+
+.header__btn:hover {
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+  background-color: #fff;
 }
