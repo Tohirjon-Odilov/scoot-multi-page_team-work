@@ -451,6 +451,10 @@ img {
     display: none;
   }
 }
+main {
+  display: none;
+}
+
 .hero-section {
   margin-top: 97px;
   height: 100vh;
