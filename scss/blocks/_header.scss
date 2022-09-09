@@ -56,4 +56,9 @@
   color: #FCB72B;
   border: 3px solid #FCB72B;
   background-color: #fff;
+  &:hover{
+    color: #fff;
+    background-color: #FCB72B;
+    border: 3px solid transparent;
+  }
 }
