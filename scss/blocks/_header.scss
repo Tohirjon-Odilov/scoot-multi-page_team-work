@@ -2,7 +2,9 @@
   padding: 22px 0px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  // justify-content: space-between;
+  position: fixed;
+  background-color: #fff;
 }
 
 .header__list {
@@ -26,12 +28,16 @@
   }
 }
 
-.header__item:first-child {
+.site-logo {
   padding-right: 58px;
 }
 
-.header__item+.header__item {
+.header__item {
   padding-right: 32px;
+}
+
+.header__btn {
+  margin-left: auto;
 }
 
 .btn {
@@ -56,9 +62,23 @@
   color: #FCB72B;
   border: 3px solid #FCB72B;
   background-color: #fff;
-  &:hover{
+
+  &:hover {
     color: #fff;
     background-color: #FCB72B;
     border: 3px solid transparent;
+  }
+}
+
+@media only screen and (max-width:700px) {
+  .header__list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+  }
+
+  .header__btn {
+    display: none;
   }
 }
