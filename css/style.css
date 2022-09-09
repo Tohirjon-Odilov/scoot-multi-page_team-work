@@ -330,6 +330,8 @@ template {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -361,6 +363,29 @@ img {
   max-width: 1120px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  width: 249px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+ }
+ 
 .hero-section {
   height: 100vh;
   width: 100%;
