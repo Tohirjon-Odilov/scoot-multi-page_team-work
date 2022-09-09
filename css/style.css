@@ -436,4 +436,26 @@ img {
   letter-spacing: -2.5px;
   color: #FFFFFF;
   margin-bottom: 40px;
+}
+.hero p {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding-left: 60px;
+  text-align: center;
+}
+.hero .p-wrapper::before {
+  content: url(../../images/path-img.svg);
+  position: relative;
+  top: 54px;
+  left: -292px;
+}
+.hero .p-wrapper:after {
+  content: url(../../images/path4-img.svg);
+  position: relative;
+  right: -527px;
+  top: -56px;
 }/*# sourceMappingURL=style.css.map */
