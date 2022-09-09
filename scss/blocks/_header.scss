@@ -1,10 +1,17 @@
+.site-header {
+  background-color: #fff;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
 .header {
   padding: 22px 0px;
   display: flex;
   align-items: center;
   // justify-content: space-between;
-  position: fixed;
-  background-color: #fff;
+  position: relative;
 }
 
 .header__list {
