@@ -462,6 +462,7 @@ img {
     display: block;
     width: 20px;
     height: 16px;
+    cursor: pointer;
   }
   .header-mobile {
     position: absolute;
@@ -477,6 +478,7 @@ img {
     background-color: #333A44;
   }
   .header__btn {
+    display: none;
     position: absolute;
     bottom: -86vh;
   }

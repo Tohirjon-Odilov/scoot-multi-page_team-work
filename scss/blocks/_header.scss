@@ -95,6 +95,7 @@
     display: block;
     width: 20px;
     height: 16px;
+    cursor: pointer;
   }
 
   .header-mobile {
@@ -112,7 +113,7 @@
   }
 
   .header__btn {
-    // display: none;
+    display: none;
     position: absolute;
     bottom: -86vh;
   }
