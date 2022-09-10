@@ -568,4 +568,15 @@ img {
     left: -310px;
     top: 0 !important;
   }
+}
+@media only screen and (max-width: 459px) {
+  .hero {
+    height: 800px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1.78571px;
+  }
 }/*# sourceMappingURL=style.css.map */
