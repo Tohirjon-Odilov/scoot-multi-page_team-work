@@ -562,6 +562,11 @@ img {
     top: 40px !important;
   }
 }
+@media only screen and (max-width: 700px) {
+  .hero-section {
+    margin-top: 77px;
+  }
+}
 @media only screen and (max-width: 773px) {
   .hero {
     width: 85%;

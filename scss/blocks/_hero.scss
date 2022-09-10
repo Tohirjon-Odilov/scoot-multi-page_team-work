@@ -80,6 +80,15 @@
 
 }
 
+// bularni men o'zgartirdim
+@media only screen and (max-width:700px) {
+    .hero-section {
+        margin-top: 77px;
+    }
+}
+
+//////////
+
 @media only screen and (max-width:773px) {
     .hero {
         width: 85%;
@@ -99,7 +108,7 @@
     }
 
     .p-wrapper {
-        &::after{
+        &::after {
             display: none;
         }
     }
