@@ -568,6 +568,7 @@ img {
     left: -310px;
     top: 0 !important;
   }
+<<<<<<< HEAD
 }
 @media only screen and (max-width: 459px) {
   .hero {
@@ -579,4 +580,6 @@ img {
     text-align: center;
     letter-spacing: -1.78571px;
   }
+=======
+>>>>>>> ee6b565 (update files)
 }/*# sourceMappingURL=style.css.map */

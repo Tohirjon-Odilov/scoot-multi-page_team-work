@@ -47,6 +47,7 @@
             position: relative;
             right: -527px;
             top: -110px;
+<<<<<<< HEAD
         }
     }
 }
@@ -101,10 +102,13 @@
         &::after {
             left: -310px;
             top: 0 !important;
+=======
+>>>>>>> ee6b565 (update files)
         }
     }
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width:459px) {
     .hero {
         height: 800px;
@@ -114,6 +118,58 @@
             line-height: 40px;
             text-align: center;
             letter-spacing: -1.78571px;
+=======
+@media only screen and (max-width:1068px) {
+    .hero {
+        margin: 0 auto;
+        text-align: center;
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .p-wrapper {
+        padding-left: 0 !important;
+
+        &::before {
+            display: none;
+        }
+
+        &::after {
+            left: -410px;
+            top: 40px !important;
+        }
+    }
+
+}
+
+@media only screen and (max-width:773px) {
+    .hero {
+        width: 85%;
+    }
+
+    .p-wrapper {
+        &::after {
+            left: -310px;
+        }
+    }
+}
+
+@media only screen and (max-width:525px) {
+    .hero {
+        width: 100%;
+    }
+
+    .p-wrapper {
+        &::after {
+            left: -310px;
+            top: 0 !important;
+>>>>>>> ee6b565 (update files)
         }
     }
 }
