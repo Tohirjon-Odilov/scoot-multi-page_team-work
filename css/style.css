@@ -511,9 +511,11 @@ img {
   font-size: 15px;
   line-height: 25px;
   color: #FFFFFF;
-  padding-left: 60px;
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
+}
+.hero .p-wrapper {
+  padding-left: 60px;
 }
 .hero .p-wrapper::before {
   content: url(../../images/path-img.svg);
@@ -526,4 +528,44 @@ img {
   position: relative;
   right: -527px;
   top: -110px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .hero {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero h1 {
+    text-align: center;
+  }
+  .hero p {
+    text-align: center;
+  }
+  .p-wrapper {
+    padding-left: 0 !important;
+  }
+  .p-wrapper::before {
+    display: none;
+  }
+  .p-wrapper::after {
+    left: -410px;
+    top: 40px !important;
+  }
+}
+@media only screen and (max-width: 773px) {
+  .hero {
+    width: 85%;
+  }
+  .p-wrapper::after {
+    left: -310px;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .hero {
+    width: 100%;
+  }
+  .p-wrapper::after {
+    left: -310px;
+    top: 0 !important;
+  }
 }/*# sourceMappingURL=style.css.map */
