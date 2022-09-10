@@ -9,6 +9,7 @@ bin-release/
 ./css/style.css.map
 ./css/style.min.css
 ./css/style.min.css.map
+./scss/myself.scss
 
 # Executables
 *.swf

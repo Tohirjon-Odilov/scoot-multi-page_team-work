@@ -98,10 +98,19 @@
     cursor: pointer;
   }
 
-  .header-mobile {
+  .block {
+    display: block;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .header__list {
     position: absolute;
     top: 76px;
-    left: -32px;
+    left: -320px;
+    display: flex;
     padding: 64px 0 0 32px;
     width: 256px;
     height: 100vh;
@@ -112,13 +121,14 @@
     background-color: #333A44;
   }
 
+  .header-mobile {
+    left: -32px;
+  }
+
   .header__btn {
-    display: none;
+    // display: none;
     position: absolute;
     bottom: -86vh;
+    left: -320px;
   }
 }
-
-// main {
-//   display: none;
-// }
