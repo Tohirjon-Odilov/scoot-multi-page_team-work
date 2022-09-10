@@ -446,6 +446,7 @@ img {
   color: #FFFFFF;
   padding-left: 60px;
   text-align: center;
+  margin-bottom: 40px;
 }
 .hero .p-wrapper::before {
   content: url(../../images/path-img.svg);
@@ -457,5 +458,5 @@ img {
   content: url(../../images/path4-img.svg);
   position: relative;
   right: -527px;
-  top: -56px;
+  top: -110px;
 }/*# sourceMappingURL=style.css.map */
