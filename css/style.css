@@ -364,6 +364,11 @@ img {
   max-width: 1140px;
 }
 
+@media only screen and (max-width: 700px) {
+  .container {
+    padding: 0 32px;
+  }
+}
 .site-header {
   background-color: #fff;
   top: 0;
@@ -377,6 +382,14 @@ img {
   display: flex;
   align-items: center;
   position: relative;
+}
+
+.open,
+.close {
+  display: none;
+  width: 18px;
+  height: 18px;
+  z-index: 713px10;
 }
 
 .header__list {
@@ -423,7 +436,7 @@ img {
   color: #fff;
 }
 
-.header__btn:hover {
+.btn-yellow:hover {
   color: #FCB72B;
   border: 3px solid #FCB72B;
   background-color: #fff;
@@ -441,14 +454,31 @@ img {
 }
 
 @media only screen and (max-width: 700px) {
-  .header__list {
+  .site-logo {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .open {
+    display: block;
+    width: 20px;
+    height: 16px;
+  }
+  .header-mobile {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 76px;
+    left: -32px;
+    padding: 64px 0 0 32px;
+    width: 256px;
+    height: 100vh;
+    gap: 24px;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #333A44;
   }
   .header__btn {
-    display: none;
+    position: absolute;
+    bottom: -86vh;
   }
 }
 main {
