@@ -495,6 +495,7 @@ img {
 }
 .hero-section {
   margin-top: 97px;
+  margin-bottom: 160px;
   height: 750px;
   width: 100%;
   background: linear-gradient(rgba(29, 45, 70, 0.4), rgba(25, 34, 48, 0.4)), url(../../images/hero-img.png) center/cover no-repeat;
@@ -591,4 +592,44 @@ img {
     text-align: center;
     letter-spacing: -1.78571px;
   }
+}
+.benefit-section {
+  background: url(../../images/benefit-line.png) calc(50% - 290px) 40px/990px 15px no-repeat;
+}
+
+.benefit {
+  margin-bottom: 200px;
+}
+
+.benefit__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.benefit__item {
+  width: 350px;
+}
+.benefit__item img {
+  margin-bottom: 40px;
+}
+
+.benefit__title {
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+}
+
+.benefit__text {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
 }/*# sourceMappingURL=style.css.map */
