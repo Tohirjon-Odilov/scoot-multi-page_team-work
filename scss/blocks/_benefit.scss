@@ -39,50 +39,57 @@
   line-height: 25px;
   color: #939CAA;
 }
-.benefit-line{
+
+.benefit-line {
   display: none;
 }
-@media only screen and (max-width:947px){
-  .benefit{
+
+@media only screen and (max-width:947px) {
+  .benefit {
     position: relative;
   }
-  .benefit-section{
+
+  .benefit-section {
     background: none;
   }
-  .benefit__list{
+
+  .benefit__list {
     flex-direction: column;
   }
-  .benefit__item{
+
+  .benefit__item {
     width: 100%;
     display: flex;
     gap: 50px;
     justify-content: center;
     margin: 0 auto;
   }
-  .item_box{
+
+  .item__box {
     width: 398px;
   }
-  .benefit-line{
+
+  .benefit-line {
     display: block;
     position: absolute;
-    left: calc(50%   - 710px );
-    transform: rotate(90deg );
+    left: calc(50% - 710px);
+    transform: rotate(90deg);
     z-index: -1;
   }
 }
-@media only screen and (max-width:607px){
-  .benefit{
 
-  }
-  .benefit-line{
+@media only screen and (max-width:607px) {
+  .benefit-line {
     display: none;
   }
-  .benefit__item{
+
+  .benefit__item {
     flex-direction: column;
     align-items: center;
     gap: 0;
   }
-  .item_box{
+
+  .item__box {
     text-align: center;
     width: 100%;
     margin-bottom: 20px;
