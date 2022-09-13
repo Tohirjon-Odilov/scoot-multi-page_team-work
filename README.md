@@ -2,4 +2,4 @@
 
 ## [Click for show](https://scoot-teamwork.netlify.app/)
 
-![image](./images/site-front.png.png)
+![image](./images/site-front.png)
